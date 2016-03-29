@@ -1,0 +1,54 @@
+/***
+Import fonts
+***/
+.header {
+	display: none;
+}
+
+.page-sidebar {
+	display: none;
+}
+
+.theme-panel {
+	display: none;
+}
+
+.hidden-print {
+	display: none;
+}
+
+.footer {
+	display: none;
+}
+
+.no-page-break {
+	page-break-after: avoid;
+}
+
+.page-container {
+	margin: 0px;
+	padding: 0px;
+}
+
+.page-content {
+	min-height: auto !important;
+}
+        thead{
+font-size: 10px !important;
+}
+#sample_1 td{
+font-size: 12px !important;
+ border: 1px solid black !important;
+ line-height: 8px;
+ padding:3px;
+}
+#sample_1 tr th{
+font-size: 10px !important;
+border: 1px solid black !important;
+line-height: 8px;
+ padding:3px;
+}
+input[type="text"]{
+	border: 1px solid black !important;
+        height: 20px;
+}

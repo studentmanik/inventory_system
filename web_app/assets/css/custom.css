@@ -1,0 +1,102 @@
+/* here you can put your own css to customize and override the theme */
+/* scroll bar color */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar:horizontal{
+    height: 10px;
+}
+::-webkit-scrollbar:vertical{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6); 
+	background-color: white;
+    
+}
+ 
+::-webkit-scrollbar-thumb:vertical{
+    
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,255,1); 
+	border-radius: 6px;
+
+}
+::-webkit-scrollbar-thumb:horizontal{
+    
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,255,1); 
+	border-radius: 6px;
+
+}
+/*body font*/
+label{
+font-size: 13px;
+}
+/*table*/
+#portlet-body th{
+font-size: 12px;
+}
+thead{
+font-size: 12px !important;
+}
+table td{
+font-size: 12px !important;
+}
+table tr th{
+font-size: 12px !important;
+}
+.btn{
+font-size: 12px !important;
+}
+/*side bar*/
+.page-sidebar li a{
+font-size: 13px;
+}
+
+/*page-breadcrumb*/
+.page-breadcrumb li a{
+font-size: 12px !important;
+}
+/*caption*/
+.caption{
+font-size: 12px !important;
+}
+/*footer a*/
+.footer a:link{
+color: #ddd;
+}
+.footer a:visited{
+color: #ddd;
+}.footer a:active{
+color: #ddd;
+}
+.footer a:hover{
+color: #ddd;
+}
+#sample_2_filter,#sample_3_filter,#sample_4_filter{
+margin-right: 10px;
+margin-bottom: 10px;
+}
+#sample_2_filter input,#sample_3_filter input,#sample_4_filter input{
+
+  height: 28px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.table-scrollable{
+	padding: 10px !important;
+        
+}
+#sample_4_wrapper,#sample_3_wrapper,#sample_2_wrapper{
+    margin-bottom: 10px;
+}
