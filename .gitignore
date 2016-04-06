@@ -74,3 +74,4 @@ captures/
 
 #Keystore files
 *.jks
+/web_app/nbproject/private/
